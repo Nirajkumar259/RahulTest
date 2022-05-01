@@ -1,0 +1,45 @@
+.todoInput{
+    background-color: lightblue;
+    color: black;
+    width: 25%;
+    padding: 12px 20px;
+    margin-top: 1%;
+    font-size: medium;
+
+    
+}
+.todoButton{
+    background-color: lightgreen;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: dotted;
+    margin: 4px 2px;
+}
+ol li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    /* background: #eee; */
+    font-size: 18px;
+    transition: 0.2s;
+    width: 25%;
+    /* margin-left: 35%; */
+    
+  }
+  .listItems{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .listBtn{
+    transition-duration: 0.4s;
+    font-size: 15px;
+    padding: 5px;
+    /* background-color: green; */
+  }
+  .listBtn:hover{
+      color: red;
+  }
+  
+  
