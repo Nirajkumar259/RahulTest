@@ -25,7 +25,7 @@ export default function Todo() {
 
   }
   const deleteItems  = (index) =>{
-    alert('Deleted');
+    alert('delete: '+ index);
     debugger;
 
   }
@@ -36,8 +36,8 @@ export default function Todo() {
       <button className='todoButton' onClick={onClickHandler}>Add To List</button>
       <ol>
         {
-          list.map((itemVal) =>{
-            return <TodoList text={itemVal} delete ={deleteItems}/>
+          list.map((itemVal, index) =>{
+            return <TodoList text={itemVal} delete ={deleteItems} index={index}/>
             
           })
         }
