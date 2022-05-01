@@ -26,7 +26,7 @@ export default function Todo() {
   }
   const deleteItems  = (index) =>{
     alert('Deleted');
-    debugger;
+   
 
   }
   return (
