@@ -12,6 +12,7 @@ export default function TodoList(props) {
   return (
     <div >
       <div className='listItems'>
+     
       <li>{props.text}</li>
       <button className='listBtn' onClick={onClick}>X</button>
       </div>

@@ -24,8 +24,12 @@ export default function Todo() {
    
 
   }
-  const deleteItems  = (index) =>{
-    alert('Deleted');
+  const deleteItems  = (e) =>{
+    // alert('Deleted');
+    const finalData = list.filter((curElem, index) => {
+      return index !== e;
+    });
+    setList(finalData);
    
 
   }
@@ -37,7 +41,7 @@ export default function Todo() {
       <ol>
         {
           list.map((itemVal, index) =>{
-            return <TodoList text={itemVal} delete ={deleteItems} index={index}/>
+            return <TodoList text={itemVal} delete ={deleteItems} index={index} />
             
           })
         }
