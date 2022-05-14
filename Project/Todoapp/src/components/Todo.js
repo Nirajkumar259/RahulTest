@@ -15,10 +15,12 @@ export default function Todo() {
       alert("Please Enter Your Todo");
     }
     else{
-      const newList = task;
-       setList([...list,newList])
+      
+      // const newList = task;
+       setList([...list,task])
        setTask('')
-      // console.log(newList);
+       
+      // console.log(list);
       
     }
    

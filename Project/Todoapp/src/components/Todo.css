@@ -16,7 +16,7 @@
     margin: 4px 2px;
 }
 ol li {
-    cursor: pointer;
+    /* cursor: pointer; */
     position: relative;
     padding: 12px 8px 12px 40px;
     /* background: #eee; */
@@ -25,7 +25,10 @@ ol li {
     width: 25%;
     /* margin-left: 35%; */
     
+    
   }
+  
+  
   .listItems{
       display: flex;
       flex-direction: row;
